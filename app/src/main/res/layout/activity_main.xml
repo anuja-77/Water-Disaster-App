@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainact"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading_main_activity"
+        android:layout_marginLeft="130dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/heading"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:id="@+id/card"
+            android:layout_height="500dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview"
+            tools:listitem="@layout/list_items">
+
+        </ListView>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+  <!--  <Button
+        android:id="@+id/animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:backgroundTint="@color/purple"
+        android:text="animate"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />  -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Disaster Management"
+        android:id="@+id/title_app"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/blue"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/slideshow"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/slide1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/slide2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/slide3"/>
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/slide4"/>
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/slide5"/>
+
+    </ViewFlipper>
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="70dp"
+            android:text="Click here to Proceed ..."
+            android:backgroundTint="@color/white"
+            android:textColor="@color/Blue_link"
+            android:textSize="20sp"
+            android:id="@+id/nextact"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

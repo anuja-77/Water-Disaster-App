@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Sample Project Version</string>
+    <string name="heading_main_activity">Latest Updates</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Home">About App  </string>
+    <string name="More">More </string>
+    <string name="Moreinfo">Contact Us"\n"
+    </string>
+    <string name="call">Emergency Contact Number:</string>
+    <string name="number">+91 9767573349     </string>
+    <string name="message">Emergency Message :"\n" </string>
+    <string name="mail">Send Mail :"\n" </string>
+    <string name="email">Email-id: anujaahire2003@gmail.com  </string>
+    <string name="share">Share :"\n" </string>
+
+    <string name="disaster_mgmt_kit">
+        A water disaster management kit should include essential items such as clean water,
+        non-perishable food, first aid supplies, flashlights, a multipurpose tool,
+        waterproof matches, personal hygiene items,important documents,
+        cash, emergency contacts, clothing, blankets, and a waterproof map.
+    </string>
+
+    <string name="Preacautions">
+    "\n"1.Store an ample supply of potable water in a safe location."\n""\n"
+2.Develop and regularly practice an evacuation plan to higher ground."\n""\n"
+3.Keep emergency water purification tools, like filters or purification tablets, readily available."\n""\n"
+4.Secure important documents and create waterproof backups."\n""\n"
+5.Elevate electrical appliances and utilities to prevent water damage."\n""\n"
+6.Install sump pumps and ensure proper drainage around your property."\n""\n"
+7.Stay informed about weather forecasts and flood alerts in your area."\n""\n"
+8.Build or reinforce barriers such as levees or sandbags to divert water away."\n""\n"
+9.Train family members on basic water safety and survival skills."\n""\n"
+10.Assemble a comprehensive emergency kit containing essentials, including water, for quick access."\n""\n"
+    </string>
+
+
+    <string name="home_info">Our Android application for Water Disaster Management is a crucial tool designed to aid users in
+        navigating and responding to a variety of water-related emergencies. From floods to tsunamis, droughts,
+        and contamination incidents, our app offers essential features to bolster disaster resilience and streamline
+        response efforts. With real-time monitoring capabilities, users can stay informed about water levels, weather conditions,
+        and potential hazards in their vicinity, receiving timely alerts to take proactive measures for safety.
+        The app also provides access to detailed evacuation routes, essential emergency contacts,
+        and preparedness resources, empowering users to plan and navigate evacuation paths efficiently. Additionally,
+        community engagement features enable users to connect with others, share information, and coordinate collective response efforts. </string>
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="all_alerts"> 1. Fatalities Rise in Maharashtra Floods and Landslides "\n""\n"
+                2.Massive Rescue Efforts Underway After Floods in Mumbai and Maharashtra "\n""\n"
+                3.at Least 20 Killed in Mumbai Landslides and Floods "\n""\n"
+                4. Rivers Above Danger Mark in Bihar, Uttar Pradesh and Uttarakhand "\n""\n"
+                5.Monsoon Rains Cause Havoc in Mumbai, 11 Dead After Building Collapses"\n""\n"
+                6.Tropical Cyclone Tauktae Leaves 23 Dead and Over 200,000 Displaced"\n""\n"
+                7.Deadly Floods in Telangana, Andhra Pradesh, Karnataka and Maharashtra"\n""\n"
+                8.Thousands Evacuate Floods in Maharashtra and Gujarat "\n""\n"
+                9.India – 12 Killed in Landslide After Heavy Rain in Maharashtra "\n""\n"
+                10.Severe Flooding in 4 States After Rain From Cyclone Gulab "\n""\n"
+                11.1 Dead, Several Reported Missing After Floods in Maharashtra "\n""\n"
+                12.Madhya Pradesh Floods Death Toll Rises to 24 "\n""\n"
+                13.Maharashtra Floods and Landslides Death Toll Climbs to 192 "\n""\n"
+                14. Fatalities Rise in Maharashtra Floods and Landslides "\n""\n"
+                15.Massive Rescue Efforts Underway After Floods in Mumbai and Maharashtra "\n""\n"
+                16.at Least 20 Killed in Mumbai Landslides and Floods "\n""\n"
+                17.Rivers Above Danger Mark in Bihar, Uttar Pradesh and Uttarakhand"\n""\n"
+                18.Monsoon Rains Cause Havoc in Mumbai, 11 Dead After Building Collapses"\n""\n"
+                19.Tropical Cyclone Tauktae Leaves 23 Dead and Over 200,000 Displaced"\n""\n"
+                20.Deadly Floods in Telangana, Andhra Pradesh, Karnataka and Maharashtra"\n""\n"
+                21. Thousands Evacuate Floods in Maharashtra and Gujarat \n""\n"</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
