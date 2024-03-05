@@ -69,13 +69,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"You clicked on "+items[position],Toast.LENGTH_SHORT).show();
             }
         });
-       /*    animate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Animation alpha= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.alpha);
-                listView.startAnimation(alpha);
-            }
-        }); */
 
         nextact.setOnClickListener(new View.OnClickListener() {
             @Override
